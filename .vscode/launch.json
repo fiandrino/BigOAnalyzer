@@ -3,34 +3,34 @@
     "configurations": [
 
         {
-            "name": "Test - Terminale integrato",
+            "name": "BigOAnalyzer - Terminale integrato",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Test/bin/Debug/net10.0/Test.dll",
-            "cwd": "${workspaceFolder}/Test",
+            "program": "${workspaceFolder}/BigOAnalyzer/bin/Debug/net10.0/BigOAnalyzer.dll",
+            "cwd": "${workspaceFolder}/BigOAnalyzer",
             "console": "integratedTerminal",
             "stopAtEntry": false,
-            "requireExactSource": false 
+            "requireExactSource": false
         },
         {
-            "name": "Test - Debug Console",
+            "name": "BigOAnalyzer - Debug Console",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Test/bin/Debug/net10.0/Test.dll",
-            "cwd": "${workspaceFolder}/Test",
+            "program": "${workspaceFolder}/BigOAnalyzer/bin/Debug/net10.0/BigOAnalyzer.dll",
+            "cwd": "${workspaceFolder}/BigOAnalyzer",
             "console": "internalConsole",
             "stopAtEntry": false,
-            "requireExactSource": false 
+            "requireExactSource": false
         },
         {
-            "name": "Test - Finestra esterna",
+            "name": "BigOAnalyzer - Finestra esterna",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Test/bin/Debug/net10.0/Test.dll",
-            "cwd": "${workspaceFolder}/Test",
+            "program": "${workspaceFolder}/BigOAnalyzer/bin/Debug/net10.0/BigOAnalyzer.dll",
+            "cwd": "${workspaceFolder}/BigOAnalyzer",
             "console": "externalTerminal",
             "stopAtEntry": false,
-            "requireExactSource": false 
+            "requireExactSource": false
         }
     ]
 }

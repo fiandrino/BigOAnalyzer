@@ -1,4 +1,4 @@
-﻿namespace MioProgetto;
+﻿namespace BigOAnalyzerApp;
 
 internal class Program
 {

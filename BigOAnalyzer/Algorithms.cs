@@ -1,4 +1,4 @@
-namespace MioProgetto;
+namespace BigOAnalyzerApp;
 
 internal static class Algorithms
 {

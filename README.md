@@ -1,4 +1,4 @@
-# TestCSharp — Analisi empirica della complessità (Big O)
+# BigOAnalyzer — Analisi empirica della complessità (Big O)
 
 Piccolo progetto C# che stima empiricamente la complessità computazionale (Big O)
 di un algoritmo misurandone i tempi di esecuzione su input di dimensione crescente,
@@ -8,17 +8,17 @@ regressione (R²).
 ## Struttura del progetto
 
 ```
-Test/
-├── Algorithms.cs      # algoritmi di esempio (insertionSort, mergeSort, LinSrc, BinSrc, HasTripletSum)
+BigOAnalyzer/
+├── Algorithms.cs       # algoritmi di esempio (insertionSort, mergeSort, LinSrc, BinSrc, HasTripletSum)
 ├── BigOAnalyzer.cs     # il motore di analisi Big O
 ├── Program.cs          # esempi d'uso su tutti gli algoritmi
-└── Test.csproj
+└── BigOAnalyzer.csproj
 ```
 
 ## Esecuzione
 
 ```
-cd Test
+cd BigOAnalyzer
 dotnet run
 ```
 

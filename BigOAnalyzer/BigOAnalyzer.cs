@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace MioProgetto;
+namespace BigOAnalyzerApp;
 
 /// <summary>
 /// Stima empiricamente la complessità (Big O) di un algoritmo misurandone i tempi
